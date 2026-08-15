@@ -14,6 +14,14 @@ if average >=80:
 elif average >=70:
     Grade = "B"
 elif average >=60:
+    Grade = "C"
+elif average >=50:
+    Grade = "D"
+else:
+    Grade = "F"
+
+# Assign Pass status if the average is 50 or above, Fail otherwise
+if average >=50:
     status = "Pass"
 else:
     status = "Fail"
